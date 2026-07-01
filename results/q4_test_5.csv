@@ -1,0 +1,21 @@
+id,image_path,true,pred,correct,latency_s,returncode,raw_output
+call_00000,data/hagrid_day1/images/call/call_00000.jpg,call,INVALID,False,155.2683364550012,0,"0.08.120.711 W llama_context: n_ctx_seq (2048) < n_ctx_train (4096) -- the full capacity of the model will not be utilized
+0.08.700.462 I common_init_from_params: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+0.11.768.285 I mtmd_cli_context: chat template example:
+You are a helpful assistant
+
+USER: Hello
+ASSISTANT: Hi there</s>
+USER: How are you?
+ASSISTANT:
+0.11.776.079 W load_tensors: ffn up/down are swapped
+0.13.103.418 I main: loading model: models/llava-v1.5-7b-second-state/llava-v1.5-7b-Q4_K_M.gguf
+0.13.105.716 W WARN: This is an experimental CLI for testing multimodal capability.
+0.13.105.723 W       For normal use cases, please use the standard llama-cli
+0.25.080.341 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)
+0.25.564.614 I mtmd batch encoding done in 484 ms
+
+ No gesture
+
+
+"

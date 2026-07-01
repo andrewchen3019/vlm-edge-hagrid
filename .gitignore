@@ -1,0 +1,75 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment/secrets
+.env
+*.env
+HF_TOKEN*
+huggingface_token*
+*.pem
+*.key
+
+# Large model files
+models/**/*.gguf
+models/**/*.pt
+models/**/*.pth
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.onnx
+models/**/*.engine
+models/**/*.plan
+
+# Keep model README files
+!models/README.md
+
+# Datasets and images
+data/hagrid_day1/images/
+data/hagrid_day1_yolo_crops/
+data/hagrid_day1_gt_crops/
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.webp
+
+# Keep data README files and small metadata if desired
+!data/README.md
+!data/**/README.md
+!data/**/*.jsonl
+
+# llama.cpp build outputs
+llama.cpp/build/
+llama.cpp/.cache/
+
+# If you do not want to commit llama.cpp source itself, uncomment:
+# llama.cpp/
+
+# Raw experiment outputs
+results/raw_cli/
+results/logs/
+results/**/*.txt
+
+# Large/generated result artifacts
+results/**/*.mp4
+results/**/*.avi
+results/**/*.mov
+
+# Keep useful summaries/plots
+!results/*.csv
+!results/*.png
+!results/**/*.csv
+!results/**/*.png
+
+# OS/editor
+.DS_Store
+.vscode/
+EOF

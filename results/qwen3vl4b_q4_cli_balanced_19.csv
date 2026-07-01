@@ -1,0 +1,191 @@
+id,image_path,true,pred,correct,invalid,generated_text,returncode,wall_s,raw_log_path,prompt_eval_ms,prompt_eval_tokens,decode_eval_ms,decode_eval_tokens,total_ms,total_tokens
+two_up_00002,data/hagrid_day1/images/two_up/two_up_00002.jpg,two_up,peace,False,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+peace",0,13.958004555000116,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0000_two_up_two_up_00002.txt,,,,,,
+palm_00002,data/hagrid_day1/images/palm/palm_00002.jpg,palm,stop,False,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+stop",0,14.229138188999968,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0001_palm_palm_00002.txt,,,,,,
+fist_00002,data/hagrid_day1/images/fist/fist_00002.jpg,fist,fist,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+fist",0,13.8296489559998,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0002_fist_fist_00002.txt,,,,,,
+stop_00003,data/hagrid_day1/images/stop/stop_00003.jpg,stop,stop,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+stop",0,13.83161990199983,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0003_stop_stop_00003.txt,,,,,,
+four_00001,data/hagrid_day1/images/four/four_00001.jpg,four,four,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+four",0,13.787308308000092,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0004_four_four_00001.txt,,,,,,
+like_00001,data/hagrid_day1/images/like/like_00001.jpg,like,like,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+like",0,13.85734190900007,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0005_like_like_00001.txt,,,,,,
+ok_00004,data/hagrid_day1/images/ok/ok_00004.jpg,ok,ok,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+ok",0,13.770889979999993,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0006_ok_ok_00004.txt,,,,,,
+mute_00001,data/hagrid_day1/images/mute/mute_00001.jpg,mute,mute,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+mute",0,13.819229597999993,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0007_mute_mute_00001.txt,,,,,,
+stop_inverted_00004,data/hagrid_day1/images/stop_inverted/stop_inverted_00004.jpg,stop_inverted,no_gesture,False,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+no_gesture",0,14.117255842999839,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0008_stop_inverted_stop_inverted_00004.txt,,,,,,
+call_00002,data/hagrid_day1/images/call/call_00002.jpg,call,call,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+call",0,13.864508613999988,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0009_call_call_00002.txt,,,,,,
+peace_inverted_00001,data/hagrid_day1/images/peace_inverted/peace_inverted_00001.jpg,peace_inverted,peace,False,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+peace",0,13.886756121999952,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0010_peace_inverted_peace_inverted_00001.txt,,,,,,
+three2_00003,data/hagrid_day1/images/three2/three2_00003.jpg,three2,peace,False,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+peace",0,12.502710863999937,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0011_three2_three2_00003.txt,,,,,,
+rock_00000,data/hagrid_day1/images/rock/rock_00000.jpg,rock,rock,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+rock",0,13.891724968000062,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0012_rock_rock_00000.txt,,,,,,
+peace_00002,data/hagrid_day1/images/peace/peace_00002.jpg,peace,peace,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+peace",0,13.793555329000128,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0013_peace_peace_00002.txt,,,,,,
+two_up_inverted_00003,data/hagrid_day1/images/two_up_inverted/two_up_inverted_00003.jpg,two_up_inverted,two_up_inverted,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+two_up_inverted",0,14.329241822000085,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0014_two_up_inverted_two_up_inverted_00003.txt,,,,,,
+dislike_00001,data/hagrid_day1/images/dislike/dislike_00001.jpg,dislike,dislike,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+dislike",0,14.042245526000215,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0015_dislike_dislike_00001.txt,,,,,,
+three_00001,data/hagrid_day1/images/three/three_00001.jpg,three,three,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+three",0,13.935732923999922,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0016_three_three_00001.txt,,,,,,
+one_00000,data/hagrid_day1/images/one/one_00000.jpg,one,one,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+one",0,13.745882128999938,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0017_one_one_00000.txt,,,,,,
+no_gesture_00000,data/hagrid_day1/images/no_gesture/no_gesture_00000.jpg,no_gesture,no_gesture,True,False,"<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+no_gesture",0,14.12466071699987,results/raw_cli/qwen3vl4b_q4_cli_balanced_19/0018_no_gesture_no_gesture_00000.txt,,,,,,
