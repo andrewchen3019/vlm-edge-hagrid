@@ -164,7 +164,6 @@ def parse_prediction(generated_text: str) -> str:
 
 
 def parse_timings(full_output: str):
-    print(full_output)
     timings = {
         "prompt_eval_ms": None,
         "prompt_eval_tokens": None,
