@@ -33,7 +33,6 @@ models/**/*.plan
 !models/README.md
 
 # Datasets and images
-data/hagrid_day1/images/
 data/hagrid_day1_yolo_crops/
 data/hagrid_day1_gt_crops/
 data/**/*.jpg
