@@ -55,9 +55,7 @@ three2 = thumb, index, middle extended.
 four = four fingers extended, thumb folded.
 no_gesture = no clear matching gesture.
 
-Return only the exact label.
-"""
-
+Return only the exact label."""
 
 def load_balanced_rows(metadata_path: str, per_class: int, seed: int):
     buckets = defaultdict(list)
