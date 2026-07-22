@@ -1,0 +1,8 @@
+| experiment_id | model | main_quant | num_images | accuracy | macro_f1 | invalid_count | avg_wall_s | p95_wall_s | avg_ram_mb | peak_ram_mb | avg_gpu_util_pct | avg_power_w | peak_power_w | avg_temp_c | peak_temp_c | cold_start_j_per_image | notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| llava15_7b_q4_cli_balanced_95 | LLaVA-1.5-7B | Q4_K_M | 95 | 0.1158 | 0.059 | 14 | 3.719 | 3.8431 |  |  |  |  |  |  |  |  | LLaVA Q4 CLI-per-image baseline, 95-image balanced set |
+| qwen3v14b_f16_l40s_95 | Qwen3-VL-4B-Instruct | F16 | 95 | 0.6842 | 0.6242 | 0 | 3.5255 | 3.7527 |  |  |  |  |  |  |  |  | Qwen3-VL F16 reference run on L40S server |
+| qwen3vl4b_q4_cli_balanced_95 | Qwen3-VL-4B-Instruct | Q4_K_M | 95 | 0.6211 | 0.5651 | 0 | 13.7902 | 14.0068 | 3981.97 | 4318.0 | 13.22 | 7.6925 | 8.924 | 51.75 | 53.62 | 106.0811 | Qwen3-VL Q4_K_M CLI-per-image run, 95-image balanced set |
+| qwen3vl4b_self_q4_k_m_mmprojq8_95 | Qwen3-VL-4B-Instruct | Q4_K_M | 95 | 0.5895 | 0.5339 | 0 | 13.4673 | 13.9247 | 3981.97 | 4318.0 | 13.22 | 7.6925 | 8.924 | 51.75 | 53.62 | 103.5972 | Qwen3-VL Q4_K_M CLI-per-image run, 95-image balanced set |
+| qwen3vl4b_self_q5_k_m_mmprojq8_95 | Qwen3-VL-4B-Instruct | Q5_K_M | 95 | 0.6737 | 0.6053 | 0 | 14.3911 | 14.9889 | 3779.36 | 4076.0 | 11.38 | 7.8628 | 9.24 | 52.42 | 54.34 | 113.1543 | Qwen3-VL Q5_K_M CLI-per-image run, 95-image balanced set |
+| qwen3vl4b_self_q8_0_mmprojq8_95 | Qwen3-VL-4B-Instruct | Q8_0 | 95 | 0.6737 | 0.6092 | 0 | 21.7692 | 30.6931 | 3769.92 | 4354.0 | 8.0 | 7.1271 | 9.042 | 52.15 | 54.03 | 155.1513 | Qwen3-VL Q8_0 CLI-per-image run, 95-image balanced set |

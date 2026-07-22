@@ -1,0 +1,2 @@
+id,image_path,true,pred,correct,invalid,generated_text,wall_s_persistent,raw_log_path,startup_s
+two_up_00002,data/hagrid_day1/images/two_up/two_up_00002.jpg,two_up,peace,False,False,peace,52.1765447730013,results/raw_persistent_chat/qwen3vl4b_q4_persistent_19/0000_two_up_two_up_00002.txt,3.1575787990004756
