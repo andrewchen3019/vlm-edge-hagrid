@@ -40,6 +40,11 @@ data/**/images/
 data/raw/
 datasets/
 
+# Retain the exact final benchmark dataset
+!data/hagrid_380_resize336/images/
+!data/hagrid_380_resize336/images/**
+
+
 # Keep documentation and metadata
 !data/README.md
 !data/**/README.md

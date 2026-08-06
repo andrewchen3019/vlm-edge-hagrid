@@ -1,0 +1,4 @@
+requests
+duckdb
+Pillow
+matplotlib

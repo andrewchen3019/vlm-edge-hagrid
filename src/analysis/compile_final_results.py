@@ -10,7 +10,7 @@ The default paths match this repository's final-results layout:
 
     results/image_results/
     results/tegrastat_logs/
-    results/summary/quantization_comparison.csv
+    results/summary/qwen3vl_quantization_comparison_all_stats.csv
 
 No third-party Python packages are required.
 """
@@ -200,7 +200,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--out",
         type=Path,
-        default=Path("results/summary/quantization_comparison.csv"),
+        default=Path("results/summary/qwen3vl_quantization_comparison_all_stats.csv"),
         help="Destination comparison CSV.",
     )
     parser.add_argument(
