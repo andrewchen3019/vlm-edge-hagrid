@@ -53,3 +53,6 @@ dist/
 # Temporary results
 results/logs/
 results/archive
+
+#Temporary src scripts
+src/archive
