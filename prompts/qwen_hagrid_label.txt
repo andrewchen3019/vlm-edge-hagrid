@@ -1,0 +1,23 @@
+There is a hand gesture in this image. Choose the exact HaGRID label that best describes it:
+
+fist = closed fist, all fingers curled.
+palm = open hand, five fingers extended, palm facing camera.
+like = thumb up, other fingers curled.
+dislike = thumb down, other fingers curled.
+ok = thumb and index form a circle, other fingers extended.
+peace = index and middle spread in a V, palm facing camera.
+peace_inverted = peace sign with back of hand facing camera.
+stop = vertical open palm, fingers upward, palm facing camera.
+stop_inverted = stop gesture with back of hand facing camera.
+rock = index and little finger extended; middle/ring folded.
+call = thumb and little finger extended like phone gesture.
+mute = one finger held near lips / silence gesture.
+one = only index finger extended.
+two_up = index and middle extended upward, close together, not V-shaped.
+two_up_inverted = two_up with back of hand facing camera.
+three = index, middle, ring extended.
+three2 = thumb, index, middle extended.
+four = four fingers extended, thumb folded.
+no_gesture = no clear matching gesture.
+
+Return only the exact label.

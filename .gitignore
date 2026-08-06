@@ -51,8 +51,7 @@ llama.cpp/.cache/
 # Raw experiment outputs
 results/raw_cli/
 results/logs/
-results/**/*.txt
-
+results/other_results
 # Large/generated result artifacts
 results/**/*.mp4
 results/**/*.avi
